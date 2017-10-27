@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Glenn Posadas</title>
+        
+        <!-- Facebook OG Meta -->
+        <meta property="og:url"                content="http://www.glennvon.com"/"
+        <meta property="og:type"               content="blog" />
+        <meta property="og:title"              content="Glenn Posadas - Senior iOS Developer" />
+        <meta property="og:description"        content="A short About Me." />
+
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            
+            <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+            <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+            <!--[if lt IE 9]>
+             <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+             <![endif]-->
+            
+            <style>
+                .margin { margin-top: 30px; }
+                .footer-margin { margin-top: 30.0px; }
+                .object-fit-cover {
+                    width: 130px;
+                    height: 130px;
+                    object-fit: cover; /*magic*/
+                }
+            </style>
+    </head>
+    
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-offset-2 col-md-8">
+                    <img class="margin object-fit-cover center-block img-circle" alt="Bootstrap Image Preview" src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t31.0-8/18449284_10209402863973464_7457604430947079462_o.jpg?oh=3fb6fb4829c27c6eb3bd4b6eceae8abe&oe=5A6F80A6" />
+                    <h3 class="text-center text-primary">
+                        Glenn Posadas
+                    </h3>
+                    <h4 class="text-center text-primary">
+                        Senior iOS Developer
+                    </h4>
+                    <p class="margin text-primary lead">
+                    I'm one of the those few people who loves my job so much. One of my favorite quotes of all time is <em>Money can pay the bills but it cannot feed the soul</em>. After working at Accenture Philippines for a year and months as a Software Engineering Analyst, fate called me to become an iOS Developer. I thank God for that. Now I am a working as a Senior iOS Developer at a startup based in Manila, Philippines with a 2 years of experience, married.
+                    </br></br>
+                    I made this open source website with Swift Vapor framework without prior knowledge to real web development. I am a 24 year old BS Computer Engineer graduate from University of the East. I also work as a freelance iOS Engineer. Email me at <strong><a href="mailto:admin@glennvon.com">admin@glennvon.com</a></strong>.
+                    </br></br>
+                    Ask me what my all time favorite line in any song and I would answer you this: <em>Started from the bottom now we're here!</em>
+                    </p>
+                    <div class="col-md-offset-3 row">
+                        <div class="col-md-3">
+                            <!-- Stackoverflow -->
+                            <span class="fa fa-camera-retro"></span><a href="https://stackoverflow.com/users/3231194/glenn"> Stackoverflow</a>
+                        </div>
+                        <div class="col-md-2">
+                            <!-- GitHub -->
+                            <span class="fa fa-github-square"></span><a href="https://github.com/glennposadas"> GitHub</a>
+                        </div>
+                        <div class="col-md-2">
+                            <!-- LinkedIn -->
+                            <span class="fa fa-github-square"></span><a href="https://www.linkedin.com/in/glennposadas/"> LinkedIn</a>
+                        </div>
+                    </div>
+                    <h5 class="footer-margin text-center text-primary">
+                        Created with Swift Vapor 😎
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <!-- FontAwesome -->
+        <script src="https://use.fontawesome.com/058366cb73.js"></script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>
