@@ -37,34 +37,38 @@
             <div class="row">
                 <div class="col-md-offset-2 col-md-8">
                     <img class="margin object-fit-cover center-block img-circle" alt="Bootstrap Image Preview" src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t31.0-8/18449284_10209402863973464_7457604430947079462_o.jpg?oh=3fb6fb4829c27c6eb3bd4b6eceae8abe&oe=5A6F80A6" />
-                    <h3 class="text-center text-primary">
+                    <h3 class="text-center text-dark">
                         Glenn Posadas
                     </h3>
-                    <h4 class="text-center text-primary">
+                    <h4 class="text-center text-dark">
                         Senior iOS Developer
                     </h4>
-                    <p class="margin text-primary lead">
-                    I'm one of the those few people who loves my job so much. One of my favorite quotes of all time is <em>Money can pay the bills but it cannot feed the soul</em>. After working at Accenture Philippines for a year and months as a Software Engineering Analyst, fate called me to become an iOS Developer. I thank God for that. Now I am a working as a Senior iOS Developer at a startup based in Manila, Philippines with a 2 years of experience, married.
+                    <p class="margin text-dark lead">
+                    Glenn is a young guy who loves his job so much, he's been passionate in software engineering and development since college - 24 year old BS Computer Engineering graduate to be specific. One of his favorite quotes of all time is <em>Money can pay the bills but it cannot feed the soul</em>. After working at Accenture Philippines for a year and some months as a Software Engineering Analyst, fate called him to become an iOS Developer. He thanks the Lord for that. Now he is working as a Senior iOS Developer at a startup based in Manila, Philippines with a 2 years of experience, married.
                     </br></br>
-                    I made this open source website with Swift Vapor framework without prior knowledge to real web development. I am a 24 year old BS Computer Engineer graduate from University of the East. I also work as a freelance iOS Engineer. Email me at <strong><a href="mailto:admin@glennvon.com">admin@glennvon.com</a></strong>.
+                    He made this open source website (though nothing special here) with Swift Vapor framework without prior knowledge to real web development. He also works as a freelance iOS Engineer, in fact he is currently looking for a freelance iOS or Android projects. You can hire him by sending him an email at <strong><a href="mailto:admin@glennvon.com">admin@glennvon.com</a></strong>.
                     </br></br>
-                    Ask me what my all time favorite line in any song and I would answer you this: <em>Started from the bottom now we're here!</em>
+                    His all time favorite line in any song? <em>Started from the bottom now we're here!</em>
                     </p>
-                    <div class="col-md-offset-3 row">
+                    <div class="col-md-offset-2 row">
                         <div class="col-md-3">
                             <!-- Stackoverflow -->
-                            <span class="fa fa-camera-retro"></span><a href="https://stackoverflow.com/users/3231194/glenn"> Stackoverflow</a>
+                            <span class="fa fa-stack-overflow"></span><a href="https://stackoverflow.com/users/3231194/glenn" target="_blank"> Stackoverflow</a>
                         </div>
                         <div class="col-md-2">
                             <!-- GitHub -->
-                            <span class="fa fa-github-square"></span><a href="https://github.com/glennposadas"> GitHub</a>
+                            <span class="fa fa-github-square"></span><a href="https://github.com/glennposadas" target="_blank"> GitHub</a>
                         </div>
                         <div class="col-md-2">
                             <!-- LinkedIn -->
-                            <span class="fa fa-github-square"></span><a href="https://www.linkedin.com/in/glennposadas/"> LinkedIn</a>
+                            <span class="fa fa-linkedin-square"></span><a href="https://www.linkedin.com/in/glennposadas/" target="_blank"> LinkedIn</a>
+                        </div>
+                        <div class="col-md-3">
+                        <!-- Resume -->
+                        <span class="fa fa-file-pdf-o"></span><a href="https://www.dropbox.com/s/6d8rpuxdkud12gw/POSADAS_Glenn_Resume_November2017.pdf?dl=0/" target="_blank"> Download My Resume</a>
                         </div>
                     </div>
-                    <h5 class="footer-margin text-center text-primary">
+                    <h5 class="footer-margin text-center text-dark">
                         Created with Swift Vapor 😎
                     </h5>
                 </div>
