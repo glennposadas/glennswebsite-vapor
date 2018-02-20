@@ -29,47 +29,125 @@
                     height: 130px;
                     object-fit: cover; /*magic*/
                 }
+                
+                    #link_bar a { padding:15px; font-weight:bold; float:left; }
+    #link_bar a:link { color:#d0d0d0; background-color:#0000a0; }
+    #link_bar a:visited { color:#c0c0c0; background-color:#0000a0; }
+    #link_bar a:hover { color:#ffffff; background-color:#000060; }
+    #link_bar a:active { color:#f0f0f0; background-color:#00ff00; }
+                
+                
+                body, html {
+                      height: 100%;
+                      margin: 0;
+                      font: 400 15px/1.8 "Lato", sans-serif;
+                      color: #ffff;
+                }
+                
+                .bgimg-1 {
+                        position:absolute;
+      left:0;
+      right:0;
+      top:0;
+      bottom:0;
+      background:url('assets/lion-bg.jpg');
+      background-size:cover;
+      z-index:1;
+      -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);   
+                }
+
+.content{
+      position:relative;
+      z-index:2;
+      color:#fff;
+}
+
+                l.nav li a, ul.nav li a:visited {
+                        color: #anycolor !important;
+                  }
+
+                  ul.nav li a:hover, ul.nav li a:active {
+                      color: #anycolor !important;
+                  }
+
+                  ul.nav li.active a {
+                      color: #anycolor !important;
+                  }
+                
+                .my-panel-styles .text-muted {color:#777;}
+                  .my-panel-styles .text-primary {color:#ffffff;}
+                  .my-panel-styles .text-success {color:#d44950;}
+                  .my-panel-styles .text-info {color:#31708f;}
+                  .my-panel-styles .text-warning {color:#8a6d3b;}
+                  .my-panel-styles .text-danger {color:#a94442;}
+
+
+                  a {
+                  color: #ffffff;
+                  }
+
+                  a:link {
+color: #ffffff;
+}
+a:visited {
+color: #ffffff;
+}
+a:hover {
+color: #ffffff;
+}
+
+
+
             </style>
+            
     </head>
     
     <body>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-offset-2 col-md-8">
-                    <img class="margin object-fit-cover center-block img-circle" alt="Bootstrap Image Preview" src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t31.0-8/18449284_10209402863973464_7457604430947079462_o.jpg?oh=3fb6fb4829c27c6eb3bd4b6eceae8abe&oe=5A6F80A6" />
-                    <h3 class="text-center text-primary">
-                        Glenn Posadas
-                    </h3>
-                    <h4 class="text-center text-primary">
-                        Senior iOS Developer
-                    </h4>
-                    <p class="margin text-primary lead">
-                    I'm one of the those few people who loves my job so much. One of my favorite quotes of all time is <em>Money can pay the bills but it cannot feed the soul</em>. After working at Accenture Philippines for a year and months as a Software Engineering Analyst, fate called me to become an iOS Developer. I thank God for that. Now I am a working as a Senior iOS Developer at a startup based in Manila, Philippines with a 2 years of experience, married.
-                    </br></br>
-                    I made this open source website with Swift Vapor framework without prior knowledge to real web development. I am a 24 year old BS Computer Engineer graduate from University of the East. I also work as a freelance iOS Engineer. Email me at <strong><a href="mailto:admin@glennvon.com">admin@glennvon.com</a></strong>.
-                    </br></br>
-                    Ask me what my all time favorite line in any song and I would answer you this: <em>Started from the bottom now we're here!</em>
-                    </p>
-                    <div class="col-md-offset-3 row">
-                        <div class="col-md-3">
-                            <!-- Stackoverflow -->
-                            <span class="fa fa-camera-retro"></span><a href="https://stackoverflow.com/users/3231194/glenn"> Stackoverflow</a>
-                        </div>
-                        <div class="col-md-2">
-                            <!-- GitHub -->
-                            <span class="fa fa-github-square"></span><a href="https://github.com/glennposadas"> GitHub</a>
-                        </div>
-                        <div class="col-md-2">
-                            <!-- LinkedIn -->
-                            <span class="fa fa-github-square"></span><a href="https://www.linkedin.com/in/glennposadas/"> LinkedIn</a>
-                        </div>
-                    </div>
-                    <h5 class="footer-margin text-center text-primary">
-                        Created with Swift Vapor 😎
-                    </h5>
-                </div>
-            </div>
-        </div>
+      <div class="bgimg-1"></div>
+              <div class="content container-fluid link_bar">
+                  <div class="row">
+                      <div class="col-md-offset-2 col-md-8">
+                          <img class="margin object-fit-cover center-block img-circle" alt="Bootstrap Image Preview" src="assets/profile.jpg" />
+                          <h3 class="text-center text-white">
+                              Glenn Posadas
+                          </h3>
+                          <h4 class="text-center text-white">
+                              Senior iOS Developer
+                          </h4>
+                          <p class="margin text-white lead link_bar">
+                          I'm one of the those few people who loves my job so much. One of my favorite quotes of all time is <em>Money can pay the bills but it cannot feed the soul</em>. After working at Accenture Philippines for a year and months as a Software Engineering Analyst, fate called me to become an iOS Developer. I thank God for that. Now I am a working as a Senior iOS Developer at a startup company based in Manila, Philippines with a 2 years of experience, married.
+                          </br></br>
+                          I made this open source website with Swift Vapor framework without prior knowledge to real web development. I am a 24 year old BS Computer Engineer graduate from University of the East. I also work as a freelance iOS Engineer. Email me at <strong><a href="mailto:admin@glennvon.com" style="color: #ffffff">admin@glennvon.com</a></strong>.
+                          </br></br>
+                          Ask me what my all time favorite line in any song and I would answer you this: <em>Started from the bottom now we're here!</em>
+                          </p>
+                          <div class="col-md-offset-3 row link_bar">
+                              <div class="col-md-3">
+                                  <!-- Stackoverflow -->
+                                  <span class="fa fa-camera-retro"></span><a href="https://stackoverflow.com/users/3231194/glenn"> Stackoverflow</a>
+                              </div>
+                              <div class="col-md-2">
+                                  <!-- GitHub -->
+                                  <span class="fa fa-github-square"></span><a href="https://github.com/glennposadas"> GitHub</a>
+                              </div>
+                              <div class="col-md-2">
+                                  <!-- LinkedIn -->
+                                  <span class="fa fa-github-square"></span><a href="https://www.linkedin.com/in/glennposadas/"> LinkedIn</a>
+                              </div>
+                          </div>
+                          <h5 class="footer-margin text-center text-white">
+                              Created with Swift Vapor 😎
+                          </h5>
+                      </div>
+                  </div>
+              </div>
+
+
+    
         <!-- FontAwesome -->
         <script src="https://use.fontawesome.com/058366cb73.js"></script>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
