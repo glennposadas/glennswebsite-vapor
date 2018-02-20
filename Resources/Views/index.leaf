@@ -5,6 +5,7 @@
         <title>Glenn Posadas</title>
         
         <!-- Facebook OG Meta -->
+        <meta property="og:image"              content="http://www.glennvon.com/assets/lion-bg.jpg"
         <meta property="og:url"                content="http://www.glennvon.com"/"
         <meta property="og:type"               content="blog" />
         <meta property="og:title"              content="Glenn Posadas - Senior iOS Developer" />
